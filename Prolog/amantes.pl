@@ -17,12 +17,9 @@ sin_correspondencia(X) :-
     \+ ama(Y, X).
 
 % Preguntas
-%?- ama(juan, Quien). % ¿A quién ama Juan?
-%?- ama(Quien, ana). % ¿Quién ama a Ana?
-%?- ama(Alguien, _). % ¿Quién ama a alguien?
+%?- ama(juan, Quien). % ¿A quién ama Juan? R=ana
+%?- ama(Quien, ana). % ¿Quién ama a Ana? R=juan
+%?- ama(Alguien, _). % ¿Quién ama a alguien? 
 %?- ama(_, Alguien). % ¿Quién es amado por alguien?
 %?- amantes_mutuos(X, Y). % ¿Quiénes se aman mutuamente?
 %?- sin_correspondencia(X). % ¿Quién ama sin ser correspondido?
-
-
-% consult('C:/Users/feder/Documents/Prolog/amantes.pl').

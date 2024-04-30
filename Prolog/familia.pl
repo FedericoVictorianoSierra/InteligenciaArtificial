@@ -86,15 +86,10 @@ suegra(Suegra, Persona) :-
     hijo(Persona, Hijx),
     mujer(Suegra).
 
-
-
 % Preguntas sobre la familia
 %?- hijo(Hijo, antonio), hijo(Hijo, ana). %  ¿Quiénes son los hijos de Antonio y Ana?
 %?- hijo(Hijo, luis), hijo(Hijo, isabel). %  ¿Quiénes son los hijos de Luis e Isabel?
 %?- hijo(carmen, Padre), hijo(carmen, Madre). % ¿Quiénes son los padres de Carmen?
 %?- hermano(Hermano, juan). %  ¿Quiénes son los hermanos de Juan?
 %?- tio(Tio, alicia). % ¿Quiénes son los tíos de Alicia?
-%?- prima(Prima, marta). % ¿Quiénes son las primas de Marta?
 %?- (suegro(Suegro, ricardo) ; suegra(Suegra, ricardo)). % ¿Quiénes son los suegros de Ricardo?
-
-% consult('C:/Users/feder/Documents/Prolog/familia.pl').
